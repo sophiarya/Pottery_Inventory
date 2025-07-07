@@ -1,0 +1,22 @@
+.pretty-button {
+    -fx-background-color: linear-gradient(#6ba1ff, #1d65ff);
+    -fx-background-radius: 10;
+    -fx-background-insets: 0;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20 10 20;
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.4), 5, 0.0, 0, 1);
+}
+
+.pretty-button:hover {
+    -fx-background-color: linear-gradient(#1d65ff, #6ba1ff);
+    -fx-text-fill: #ffffff;
+}
+
+.pretty-button:pressed {
+    -fx-background-color: linear-gradient(#1d65ff, #6ba1ff);
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.4), 10, 0.0, 0, 1);
+}
+.shadow-pane {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0.5, 0, 0);
+}
